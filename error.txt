@@ -1,0 +1,25 @@
+Warning: Unable to set daemon's environment variables to match the client because: 
+  There is no native integration with this operating environment.
+  If the daemon was started with a significantly different environment from the client, and your build 
+  relies on environment variables, you may experience unexpected behavior.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/data/data/com.termux/files/home/AgentApp/app/build.gradle' line: 2
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'com.android.application']
+> Failed to apply plugin 'com.android.internal.application'.
+   > Failed to create service 'com.android.build.gradle.internal.errors.AndroidProblemReporterProvider_47ba492c-c53d-43d4-9d97-c8e28791723b'.
+      > Could not create an instance of type com.android.build.gradle.internal.errors.AndroidProblemReporterProvider.
+         > Could not create service of type InternalProblems using ProblemsBuildTreeServices.createInternalProblems().
+            > Plugin 'com.android.internal.application' relies on 'org.gradle.api.problems.internal.InternalProblems', a Gradle internal API that was removed in Gradle 9.6.0. Update the plugin to a version that no longer uses Gradle internal APIs, or use Gradle 9.5. For more information, please refer to https://docs.gradle.org/9.8.0/userguide/upgrading_version_9.html#agp_8x_incompatible in the Gradle documentation.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2s
