@@ -191,7 +191,6 @@ public class MainActivity extends Activity {
 
             connection.setRequestProperty(
                     "Content-Type",
-                <uses-permission android:name="android.permission.INTERNET" />
                     "application/json; charset=UTF-8"
             );
 
