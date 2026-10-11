@@ -190,7 +190,8 @@ public class MainActivity extends Activity {
             connection.setDoOutput(true);
 
             connection.setRequestProperty(
-                    "Content-Type",<uses-permission android:name="android.permission.INTERNET" />
+                    "Content-Type",<
+                uses-permission android:name="android.permission.INTERNET" />
                     "application/json; charset=UTF-8"
             );
 
