@@ -7,7 +7,7 @@ android {
     compileSdk 36
 
     defaultConfig {
-        applicationId 'com.example.agent2'
+        applicationId 'com.example.agent'
         minSdk 26
         targetSdk 36
         versionCode 1
