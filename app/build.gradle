@@ -1,8 +1,8 @@
 plugins { id 'com.android.application' }
 
-android { namespace 'com.example.agent' compileSdk 36
+android { namespace = 'com.example.agent' compileSdk = 36
 
-defaultConfig { applicationId 'com.example.agent2' minSdk 26 targetSdk 36 versionCode 1 versionName '1.0' } 
+defaultConfig { applicationId = 'com.example.agent2' minSdk = 26 targetSdk = 36 versionCode = 1 versionName = '1.0' } 
 
 }
 
