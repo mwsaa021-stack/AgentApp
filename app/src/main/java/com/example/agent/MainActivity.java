@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
 
     // ضع رابط Apps Script هنا
     private static final String API_URL =
-            "https://script.google.com/macros/s/AKfycbwtLbSzOZ4cJNEhOtPgeNkche62FfxFDVEJ3mxiC1TmLtjxdX10bnJ3OZI4t9Ho9dXe/exec";
+            https://script.google.com/macros/s/AKfycbxVxdBLRPQWHR0mjtciLt25D8ibsIfRX3T3YhuR8sa8DFaalgAUJnrQPS9Jy1F46_n8/exec";
 
     private TextView statusMessage;
 
